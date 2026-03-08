@@ -1,25 +1,10 @@
-# Node_modules
-node_modules/
-
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+# python
+backend/__pycache__/
+backend/models/__pycache__/
 venv/
-env/
 .env
-.venv
 
-# Logs and databases
-*.log
-*.sqlite3
-
-# OS generated files
-.DS_Store
-Thumbs.db
-
-# IDEs and Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
